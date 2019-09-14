@@ -62,6 +62,8 @@ TUR_hegemonism:0 "Sublime Porte"
 TUR_hegemonism_DEF:0 "Sublime Porte"
 GEO_ur_fascism:0 "Georgia"
 GEO_ur_fascism_DEF:0 "Kingdom of Georgia"
+WKU_left_authoritarianism:0 "Worker's Union"
+WKU_left_authoritarianism_DEF:0 "Worke's Union"
 ###Fractions###
 eurasian_armed_forces:0 "Eurasian Armed Forces"
 sanitary_cordon:0 "Sanitary cordon"

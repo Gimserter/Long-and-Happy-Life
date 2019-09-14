@@ -9,11 +9,10 @@ state={
 	}
 
 	history={
-		owner = SOV
-		buildings = {
+		owner = WKU		buildings = {
 			infrastructure = 3
 		}
-		add_core_of = SOV
+		add_core_of = WKU
 	}
 
 	provinces={
