@@ -1,5 +1,146 @@
 leader_traits = {
 
+	leftwing_intellectual = {
+		random = no
+		political_power_factor = 0.10
+		research_cost = 1
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	diligent_officer_without_imagination = {
+		random = no
+		political_power_factor = -0.20
+		army_org_factor = 0.04
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	red_horse = {
+		random = no
+		cavalry_attack_factor = 0.15
+		army_morale_factor = 0.04
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+
+	moderate_technocrat = {
+		random = no
+		political_power_factor = 0.10
+		stability_factor = 0.10
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	old_boar = {
+		random = no
+		political_power_factor = 0.15
+		consumer_goods_factor = 0.05
+
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	tribune_of_the_people = {
+		random = no
+		production_speed_industrial_complex_factor = 0.1
+		stability_factor = 0.1
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	scourge_of_god = {
+		random = no
+		war_support_factor = 0.20
+		army_attack_factor = 0.1
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	inexperienced_enthusiast = {
+		random = no
+		stability_factor = 0.1
+		political_power_factor = -0.1
+
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	reviver_of_lesser_russia = {
+		random = no
+		army_core_attack_factor = 0.1
+		army_core_defence_factor = 0.1
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	economic_reformer = {
+		random = no
+		production_factory_max_efficiency_factor = 0.05
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	butcher = {
+		random = no
+		enemy_partisan_effect = -0.3
+		consumer_goods_factor = -0.03
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	ambitious_parvenu = {
+		random = no
+		political_power_factor = 0.1
+		political_advisor_cost_factor = 0.25
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	waste_of_space = {
+		random = no
+		political_power_factor = -0.2
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	barking_buffoon = {
+		random = no
+		political_power_factor = 0.05
+		army_morale_Factor = -0.05
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
 	han_som_reiste = {
 		random = no
 		attrition = -0.05

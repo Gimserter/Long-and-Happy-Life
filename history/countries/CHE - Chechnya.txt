@@ -1,4 +1,4 @@
-capital = 789
+﻿capital = 789
 
 oob = "CHE_1936"
 
@@ -11,31 +11,16 @@ set_war_support = 0.5
 set_technology = {
  	infantry_weapons = 1
 	infantry_weapons1 = 1	
-	tech_engineers = 1
-	tech_mountaineers = 1
-	motorised_infantry = 1
-	gw_artillery = 1
-	interwar_antiair = 1
-	gwtank = 1
-	basic_light_tank = 1
-	basic_heavy_tank = 1
-	early_fighter = 1
-	fighter1 = 1
-	early_bomber = 1
-	tactical_bomber1 = 1
-	strategic_bomber1 = 1
-	CAS1 = 1
-	naval_bomber1 = 1
 }
 
 set_politics = {
-	ruling_party = natpop
+	ruling_party = right_populism
 	last_election = "1932.11.8"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	natpop = 100
+	right_populism = 100
 }
 
 create_country_leader = {
@@ -43,7 +28,7 @@ create_country_leader = {
 	desc = "POLITICS_RAMZAN_DESC"
 	picture = "Portrait_CHE_RAMZAN.dds"
 	expire = "1953.3.1"
-	ideology = right_populism 
+	ideology = authoritarian_republic 
 	traits = {
 	}
 }
