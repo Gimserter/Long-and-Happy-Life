@@ -13,7 +13,7 @@ set_technology = {
 set_convoys = 50
 
 set_politics = {
-	ruling_party = socialism 
+	ruling_party = millenarism
 	last_election = "1933.7.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -26,7 +26,7 @@ create_country_leader = {
 	name = "Krishna Guy"
 	desc = "POLITICS_KURGINJAN_DESC"
 	picture = "Portrait_RST_KURGINJAN.dds"
-	ideology = agrarian_socialism
+	ideology = ethic_millenarism
 	traits = {
 		
 	}
