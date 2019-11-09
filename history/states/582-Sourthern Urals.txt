@@ -7,20 +7,12 @@ state={
 	}
 
 	history={
-<<<<<<< Updated upstream
 		owner = SOV
-=======
-		owner = RNG
->>>>>>> Stashed changes
 		buildings = {
 			infrastructure = 5
 
 		}
-<<<<<<< Updated upstream
 		add_core_of = SOV
-=======
-		add_core_of = RNG
->>>>>>> Stashed changes
 		victory_points = {
 			10256 3
 		}
