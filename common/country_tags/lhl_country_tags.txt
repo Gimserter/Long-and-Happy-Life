@@ -37,6 +37,9 @@ RWR = "countries/lhl_countries/Russian worker republic.txt"
 CHS = "countries/lhl_countries/Chuvashia.txt"
 PLP = "countries/lhl_countries/Provisional Poland.txt"
 TRG = "countries/lhl_countries/Torgu.txt"
+<<<<<<< Updated upstream
+FRG = "countries/lhl_countries/Federal Germany.txt"
+=======
 FRG = "countries/lhl_countries/Federal Germany.txt"
 SRS = "countries/lhl_countries/Soros Hungary.txt"
 RNG = "countries/lhl_countries/Russian National State.txt"
@@ -56,3 +59,4 @@ TOM = "countries/lhl_countries/Tomsk.txt"
 SRS = "countries/lhl_countries/Soros Hungary.txt"
 RNG = "countries/lhl_countries/Russian National State.txt"
 TVA = "countrues/lhl_countries/Tuva.txt"
+>>>>>>> Stashed changes

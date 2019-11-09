@@ -13,12 +13,20 @@ state={
 		victory_points = {
 			10329 1
 		}
+<<<<<<< Updated upstream
+		owner = SOV
+=======
 		owner = GAZ
+>>>>>>> Stashed changes
 		buildings = {
 			infrastructure = 4
 
 		}
+<<<<<<< Updated upstream
+		add_core_of = SOV
+=======
 		add_core_of = GAZ
+>>>>>>> Stashed changes
 	}
 
 	provinces={
