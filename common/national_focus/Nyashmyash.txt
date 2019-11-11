@@ -1,0 +1,181 @@
+focus_tree = {
+	id = nyash_myash_focus_tree
+
+	default = no
+
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = RIS
+		}
+	}
+
+	focus = {
+		id = nyash_myash_new_war
+		icon = GFX_goal_unknown
+		x = 12
+		y = 0
+		cost = 10
+	}
+	focus = {
+		id = nyash_myash_eastern_maiden
+		icon = GFX_goal_unknown
+		x = 12
+		y = 1
+		cost = 10
+
+		prerequisite = { focus = nyash_myash_new_war }
+	}
+	focus = {
+		id = nyash_myash_russia_is_not_alone
+		icon = GFX_goal_unknown
+		x = 12
+		y = 2
+		cost = 10
+
+		prerequisite = { focus = nyash_myash_eastern_maiden }
+	}
+
+	focus = {
+		id = nyash_myash_outbreak_company
+		icon = GFX_goal_unknown
+		x = 8
+		y = 3
+		cost = 10
+
+		prerequisite = { focus = nyash_myash_russia_is_not_alone }
+		mutually_exclusive = {
+			focus = nyash_myash_russo_samurai
+			focus = nyash_myash_eastern_project
+		}
+	}
+	focus = {
+		id = nyash_myash_russo_samurai
+		icon = GFX_goal_unknown
+		x = 12
+		y = 3
+		cost = 10
+
+		prerequisite = { focus = nyash_myash_russia_is_not_alone }
+		mutually_exclusive = {
+			focus = nyash_myash_outbreak_company
+			focus = nyash_myash_eastern_project
+		}
+	}
+	focus = {
+		id = nyash_myash_eastern_project
+		icon = GFX_goal_unknown
+		x = 16
+		y = 3
+		cost = 10
+
+		prerequisite = { focus = nyash_myash_russia_is_not_alone }
+		mutually_exclusive = {
+			focus = nyash_myash_outbreak_company
+			focus = nyash_myash_russo_samurai
+		}
+	}
+
+	focus = {
+		id = nyash_myash_empress
+		icon = GFX_goal_unknown
+		x = 8
+		y = 4
+		cost = 10
+
+		prerequisite = {
+			focus = nyash_myash_outbreak_company
+			focus = nyash_myash_russo_samurai
+		}
+		mutually_exclusive = {
+			focus = nyash_myash_czar
+			focus = nyash_myash_dictator
+		}
+	}
+	focus = {
+		id = nyash_myash_czar
+		icon = GFX_goal_unknown
+		x = 12
+		y = 4
+		cost = 10
+
+		prerequisite = {
+			focus = nyash_myash_outbreak_company
+			focus = nyash_myash_russo_samurai
+			focus = nyash_myash_eastern_project
+		}
+		mutually_exclusive = {
+			focus = nyash_myash_empress
+			focus = nyash_myash_dictator
+		}
+	}
+	focus = {
+		id = nyash_myash_dictator
+		icon = GFX_goal_unknown
+		x = 16
+		y = 4
+		cost = 10
+
+		prerequisite = {
+			focus = nyash_myash_eastern_project
+			focus = nyash_myash_russo_samurai
+		}
+		mutually_exclusive = {
+			focus = nyash_myash_czar
+			focus = nyash_myash_empress
+		}
+	}
+
+	focus = {
+		id = nyash_myash_natalja_crusade
+		icon = GFX_goal_unknown
+		x = 8
+		y = 5
+		cost = 10
+
+		prerequisite = {
+			focus = nyash_myash_empress
+			focus = nyash_myash_czar
+			focus = nyash_myash_dictator
+		}
+		mutually_exclusive = {
+			focus = nyash_myash_moon_led_journey
+			focus = nyash_myash_military_chronicles
+		}
+	}
+	focus = {
+		id = nyash_myash_military_chronicles
+		icon = GFX_goal_unknown
+		x = 12
+		y = 5
+		cost = 10
+
+		prerequisite = {
+			focus = nyash_myash_empress
+			focus = nyash_myash_czar
+			focus = nyash_myash_dictator
+		}
+		mutually_exclusive = {
+			focus = nyash_myash_natalja_crusade
+			focus = nyash_myash_moon_led_journey
+		}
+	}
+	focus = {
+		id = nyash_myash_moon_led_journey
+		icon = GFX_goal_unknown
+		x = 16
+		y = 5
+		cost = 10
+
+		prerequisite = {
+			focus = nyash_myash_empress
+			focus = nyash_myash_czar
+			focus = nyash_myash_dictator
+		}
+		mutually_exclusive = {
+			focus = nyash_myash_natalja_crusade
+			focus = nyash_myash_military_chronicles
+		}
+	}
+}
