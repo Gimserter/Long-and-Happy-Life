@@ -67,7 +67,7 @@ focus_tree = {
 	focus = {
 		id = nyash_myash_outbreak_company
 		icon = GFX_goal_unknown
-		x = 4
+		x = 8
 		y = 4
 		cost = 10
 
@@ -93,7 +93,7 @@ focus_tree = {
 	focus = {
 		id = nyash_myash_eastern_project
 		icon = GFX_goal_unknown
-		x = 20
+		x = 16
 		y = 4
 		cost = 10
 
@@ -107,7 +107,7 @@ focus_tree = {
 	focus = {
 		id = nyash_myash_empress
 		icon = GFX_goal_unknown
-		x = 4
+		x = 8
 		y = 5
 		cost = 10
 
@@ -140,7 +140,7 @@ focus_tree = {
 	focus = {
 		id = nyash_myash_dictator
 		icon = GFX_goal_unknown
-		x = 20
+		x = 16
 		y = 5
 		cost = 10
 
@@ -157,7 +157,7 @@ focus_tree = {
 	focus = {
 		id = nyash_myash_natalja_crusade
 		icon = GFX_goal_unknown
-		x = 4
+		x = 8
 		y = 6
 		cost = 10
 
@@ -191,7 +191,7 @@ focus_tree = {
 	focus = {
 		id = nyash_myash_moon_led_journey
 		icon = GFX_goal_unknown
-		x = 20
+		x = 16
 		y = 6
 		cost = 10
 
@@ -301,7 +301,7 @@ focus_tree = {
 	focus = {
 		id = nyash_myash_sunday_without_god
 		icon = GFX_goal_unknown
-		x = 20
+		x = 16
 		y = 7
 		cost = 10
 
@@ -310,7 +310,7 @@ focus_tree = {
 	focus = {
 		id = nyash_myash_oriental_demon
 		icon = GFX_goal_unknown
-		x = 20
+		x = 16
 		y = 8
 		cost = 10
 
@@ -320,7 +320,7 @@ focus_tree = {
 	focus = {
 		id = nyash_myash_maria_is_watching_over_us
 		icon = GFX_goal_unknown
-		x = 4
+		x = 8
 		y = 7
 		cost = 10
 
@@ -329,7 +329,7 @@ focus_tree = {
 	focus = {
 		id = nyash_myash_new_century_gospel
 		icon = GFX_goal_unknown
-		x = 4
+		x = 8
 		y = 8
 		cost = 10
 
@@ -339,7 +339,7 @@ focus_tree = {
 	focus = {
 		id = nyash_myash_psalms_of_planet
 		icon = GFX_goal_unknown
-		x = 2
+		x = 6
 		y = 9
 		cost = 10
 
@@ -352,7 +352,7 @@ focus_tree = {
 	focus = {
 		id = nyash_myash_world_god_only_knows
 		icon = GFX_goal_unknown
-		x = 4
+		x = 8
 		y = 9
 		cost = 10
 
@@ -365,7 +365,7 @@ focus_tree = {
 	focus = {
 		id = nyash_myash_eastern_eden
 		icon = GFX_goal_unknown
-		x = 6
+		x = 10
 		y = 9
 		cost = 10
 
@@ -379,7 +379,7 @@ focus_tree = {
 	focus = {
 		id = nyash_myash_pandora_heart
 		icon = GFX_goal_unknown
-		x = 18
+		x = 14
 		y = 9
 		cost = 10
 
@@ -392,7 +392,7 @@ focus_tree = {
 	focus = {
 		id = nyash_myash_natalia_ambition
 		icon = GFX_goal_unknown
-		x = 20
+		x = 16
 		y = 9
 		cost = 10
 
@@ -405,7 +405,7 @@ focus_tree = {
 	focus = {
 		id = nyash_myash_mountain_of_faith
 		icon = GFX_goal_unknown
-		x = 22
+		x = 18
 		y = 9
 		cost = 10
 
@@ -419,7 +419,7 @@ focus_tree = {
 	focus = {
 		id = nyash_myash_girl_and_panzers
 		icon = GFX_goal_unknown
-		x = 20
+		x = 16
 		y = 10
 		cost = 10
 
@@ -432,7 +432,7 @@ focus_tree = {
 	focus = {
 		id = nyash_myash_moving_castle
 		icon = GFX_goal_unknown
-		x = 20
+		x = 16
 		y = 11
 		cost = 10
 
@@ -441,7 +441,7 @@ focus_tree = {
 	focus = {
 		id = nyash_myash_unbreakable_machine
 		icon = GFX_goal_unknown
-		x = 20
+		x = 16
 		y = 12
 		cost = 10
 
@@ -451,7 +451,7 @@ focus_tree = {
 	focus = {
 		id = nyash_myash_sky_sound
 		icon = GFX_goal_unknown
-		x = 4
+		x = 8
 		y = 10
 		cost = 10
 
@@ -464,7 +464,7 @@ focus_tree = {
 	focus = {
 		id = nyash_myash_sky_of_connection
 		icon = GFX_goal_unknown
-		x = 4
+		x = 8
 		y = 11
 		cost = 10
 
@@ -473,7 +473,7 @@ focus_tree = {
 	focus = {
 		id = nyash_myash_heavenly_breakthrough
 		icon = GFX_goal_unknown
-		x = 4
+		x = 8
 		y = 12
 		cost = 10
 
