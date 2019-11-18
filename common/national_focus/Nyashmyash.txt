@@ -3,6 +3,8 @@ focus_tree = {
 
 	default = no
 
+	continuous_focus_position = { x = 125 y = 2000 }
+
 	country = {
 		factor = 0
 		modifier = {
@@ -18,20 +20,45 @@ focus_tree = {
 		y = 0
 		cost = 10
 	}
+
 	focus = {
-		id = nyash_myash_eastern_maiden
+		id = nyash_myash_welcome_to_nyash
 		icon = GFX_goal_unknown
-		x = 12
+		x = 11
 		y = 1
 		cost = 10
 
 		prerequisite = { focus = nyash_myash_new_war }
+		mutually_exclusive = { focus = nyash_myash_no_myash }
+	}
+	focus = {
+		id = nyash_myash_no_myash
+		icon = GFX_goal_unknown
+		x = 13
+		y = 1
+		cost = 10
+
+		prerequisite = { focus = nyash_myash_new_war }
+		mutually_exclusive = { focus = nyash_myash_welcome_to_nyash }
+	}
+
+	focus = {
+		id = nyash_myash_eastern_maiden
+		icon = GFX_goal_unknown
+		x = 12
+		y = 2
+		cost = 10
+
+		prerequisite = {
+			focus = nyash_myash_welcome_to_nyash
+			focus = nyash_myash_no_myash
+		}
 	}
 	focus = {
 		id = nyash_myash_russia_is_not_alone
 		icon = GFX_goal_unknown
 		x = 12
-		y = 2
+		y = 3
 		cost = 10
 
 		prerequisite = { focus = nyash_myash_eastern_maiden }
@@ -40,8 +67,8 @@ focus_tree = {
 	focus = {
 		id = nyash_myash_outbreak_company
 		icon = GFX_goal_unknown
-		x = 8
-		y = 3
+		x = 4
+		y = 4
 		cost = 10
 
 		prerequisite = { focus = nyash_myash_russia_is_not_alone }
@@ -54,7 +81,7 @@ focus_tree = {
 		id = nyash_myash_russo_samurai
 		icon = GFX_goal_unknown
 		x = 12
-		y = 3
+		y = 4
 		cost = 10
 
 		prerequisite = { focus = nyash_myash_russia_is_not_alone }
@@ -66,8 +93,8 @@ focus_tree = {
 	focus = {
 		id = nyash_myash_eastern_project
 		icon = GFX_goal_unknown
-		x = 16
-		y = 3
+		x = 20
+		y = 4
 		cost = 10
 
 		prerequisite = { focus = nyash_myash_russia_is_not_alone }
@@ -80,8 +107,8 @@ focus_tree = {
 	focus = {
 		id = nyash_myash_empress
 		icon = GFX_goal_unknown
-		x = 8
-		y = 4
+		x = 4
+		y = 5
 		cost = 10
 
 		prerequisite = {
@@ -97,7 +124,7 @@ focus_tree = {
 		id = nyash_myash_czar
 		icon = GFX_goal_unknown
 		x = 12
-		y = 4
+		y = 5
 		cost = 10
 
 		prerequisite = {
@@ -113,8 +140,8 @@ focus_tree = {
 	focus = {
 		id = nyash_myash_dictator
 		icon = GFX_goal_unknown
-		x = 16
-		y = 4
+		x = 20
+		y = 5
 		cost = 10
 
 		prerequisite = {
@@ -130,8 +157,8 @@ focus_tree = {
 	focus = {
 		id = nyash_myash_natalja_crusade
 		icon = GFX_goal_unknown
-		x = 8
-		y = 5
+		x = 4
+		y = 6
 		cost = 10
 
 		prerequisite = {
@@ -148,7 +175,7 @@ focus_tree = {
 		id = nyash_myash_military_chronicles
 		icon = GFX_goal_unknown
 		x = 12
-		y = 5
+		y = 6
 		cost = 10
 
 		prerequisite = {
@@ -164,8 +191,8 @@ focus_tree = {
 	focus = {
 		id = nyash_myash_moon_led_journey
 		icon = GFX_goal_unknown
-		x = 16
-		y = 5
+		x = 20
+		y = 6
 		cost = 10
 
 		prerequisite = {
@@ -177,5 +204,279 @@ focus_tree = {
 			focus = nyash_myash_natalja_crusade
 			focus = nyash_myash_military_chronicles
 		}
+	}
+
+	# focus = {
+		# id = nyash_myash_iron_blooded_orphans
+		# icon = GFX_goal_unknown
+		# x = 8
+		# y = 7
+		# cost = 10
+
+		# prerequisite = {
+			# focus = nyash_myash_outbreak_company
+			# focus = nyash_myash_russo_samurai
+			# focus = nyash_myash_military_chronicles
+		# }
+	# }
+	# focus = {
+		# id = nyash_myash_serial_experiments
+		# icon = GFX_goal_unknown
+		# x = 8
+		# y = 8
+		# cost = 10
+
+		# prerequisite = { focus = nyash_myash_iron_blooded_orphans }
+	# }
+	# focus = {
+		# id = nyash_myash_first_squad
+		# icon = GFX_goal_unknown
+		# x = 8
+		# y = 9
+		# cost = 10
+
+		# prerequisite = { focus = nyash_myash_serial_experiments }
+	# }
+
+	# focus = {
+		# id = nyash_myash_arpeggio_of_blue_steel
+		# icon = GFX_goal_unknown
+		# x = 16
+		# y = 7
+		# cost = 10
+
+		# prerequisite = {
+			# focus = nyash_myash_eastern_project
+			# focus = nyash_myash_russo_samurai
+			# focus = nyash_myash_military_chronicles
+		# }
+	# }
+	# focus = {
+		# id = nyash_myash_fleet_collection
+		# icon = GFX_goal_unknown
+		# x = 16
+		# y = 8
+		# cost = 10
+
+		# prerequisite = { focus = nyash_myash_arpeggio_of_blue_steel }
+	# }
+	# focus = {
+		# id = nyash_myash_sacred_sailors
+		# icon = GFX_goal_unknown
+		# x = 16
+		# y = 9
+		# cost = 10
+
+		# prerequisite = { focus = nyash_myash_fleet_collection }
+	# }
+
+	focus = {
+		id = nyash_myash_last_tour
+		icon = GFX_goal_unknown
+		x = 12
+		y = 7
+		cost = 10
+
+		prerequisite = { focus = nyash_myash_military_chronicles }
+	}
+	focus = {
+		id = nyash_myash_post_mysticism
+		icon = GFX_goal_unknown
+		x = 12
+		y = 8
+		cost = 10
+
+		prerequisite = { focus = nyash_myash_last_tour }
+	}
+	focus = {
+		id = nyash_myash_infinite_stratos
+		icon = GFX_goal_unknown
+		x = 12
+		y = 9
+		cost = 10
+
+		prerequisite = { focus = nyash_myash_post_mysticism }
+	}
+
+	focus = {
+		id = nyash_myash_sunday_without_god
+		icon = GFX_goal_unknown
+		x = 20
+		y = 7
+		cost = 10
+
+		prerequisite = { focus = nyash_myash_moon_led_journey }
+	}
+	focus = {
+		id = nyash_myash_oriental_demon
+		icon = GFX_goal_unknown
+		x = 20
+		y = 8
+		cost = 10
+
+		prerequisite = { focus = nyash_myash_sunday_without_god }
+	}
+
+	focus = {
+		id = nyash_myash_maria_is_watching_over_us
+		icon = GFX_goal_unknown
+		x = 4
+		y = 7
+		cost = 10
+
+		prerequisite = { focus = nyash_myash_natalja_crusade }
+	}
+	focus = {
+		id = nyash_myash_new_century_gospel
+		icon = GFX_goal_unknown
+		x = 4
+		y = 8
+		cost = 10
+
+		prerequisite = { focus = nyash_myash_maria_is_watching_over_us }
+	}
+
+	focus = {
+		id = nyash_myash_psalms_of_planet
+		icon = GFX_goal_unknown
+		x = 2
+		y = 9
+		cost = 10
+
+		prerequisite = { focus = nyash_myash_new_century_gospel }
+		mutually_exclusive = {
+			focus = nyash_myash_world_god_only_knows
+			focus = nyash_myash_eastern_eden
+		}
+	}
+	focus = {
+		id = nyash_myash_world_god_only_knows
+		icon = GFX_goal_unknown
+		x = 4
+		y = 9
+		cost = 10
+
+		prerequisite = { focus = nyash_myash_new_century_gospel }
+		mutually_exclusive = {
+			focus = nyash_myash_psalms_of_planet
+			focus = nyash_myash_eastern_eden
+		}
+	}
+	focus = {
+		id = nyash_myash_eastern_eden
+		icon = GFX_goal_unknown
+		x = 6
+		y = 9
+		cost = 10
+
+		prerequisite = { focus = nyash_myash_new_century_gospel }
+		mutually_exclusive = {
+			focus = nyash_myash_psalms_of_planet
+			focus = nyash_myash_world_god_only_knows
+		}
+	}
+
+	focus = {
+		id = nyash_myash_pandora_heart
+		icon = GFX_goal_unknown
+		x = 18
+		y = 9
+		cost = 10
+
+		prerequisite = { focus = nyash_myash_oriental_demon }
+		mutually_exclusive = {
+			focus = nyash_myash_natalia_ambition
+			focus = nyash_myash_mountain_of_faith
+		}
+	}
+	focus = {
+		id = nyash_myash_natalia_ambition
+		icon = GFX_goal_unknown
+		x = 20
+		y = 9
+		cost = 10
+
+		prerequisite = { focus = nyash_myash_oriental_demon }
+		mutually_exclusive = {
+			focus = nyash_myash_pandora_heart
+			focus = nyash_myash_mountain_of_faith
+		}
+	}
+	focus = {
+		id = nyash_myash_mountain_of_faith
+		icon = GFX_goal_unknown
+		x = 22
+		y = 9
+		cost = 10
+
+		prerequisite = { focus = nyash_myash_oriental_demon }
+		mutually_exclusive = {
+			focus = nyash_myash_pandora_heart
+			focus = nyash_myash_natalia_ambition
+		}
+	}
+
+	focus = {
+		id = nyash_myash_girl_and_panzers
+		icon = GFX_goal_unknown
+		x = 20
+		y = 10
+		cost = 10
+
+		prerequisite = {
+			focus = nyash_myash_pandora_heart
+			focus = nyash_myash_natalia_ambition
+			focus = nyash_myash_mountain_of_faith
+		}
+	}
+	focus = {
+		id = nyash_myash_moving_castle
+		icon = GFX_goal_unknown
+		x = 20
+		y = 11
+		cost = 10
+
+		prerequisite = { focus = nyash_myash_girl_and_panzers }
+	}
+	focus = {
+		id = nyash_myash_unbreakable_machine
+		icon = GFX_goal_unknown
+		x = 20
+		y = 12
+		cost = 10
+
+		prerequisite = { focus = nyash_myash_moving_castle }
+	}
+
+	focus = {
+		id = nyash_myash_sky_sound
+		icon = GFX_goal_unknown
+		x = 4
+		y = 10
+		cost = 10
+
+		prerequisite = {
+			focus = nyash_myash_psalms_of_planet
+			focus = nyash_myash_world_god_only_knows
+			focus = nyash_myash_eastern_eden
+		}
+	}
+	focus = {
+		id = nyash_myash_sky_of_connection
+		icon = GFX_goal_unknown
+		x = 4
+		y = 11
+		cost = 10
+
+		prerequisite = { focus = nyash_myash_sky_sound }
+	}
+	focus = {
+		id = nyash_myash_heavenly_breakthrough
+		icon = GFX_goal_unknown
+		x = 4
+		y = 12
+		cost = 10
+
+		prerequisite = { focus = nyash_myash_sky_of_connection }
 	}
 }
