@@ -206,69 +206,61 @@ focus_tree = {
 		}
 	}
 
-	# focus = {
-		# id = nyash_myash_iron_blooded_orphans
-		# icon = GFX_goal_unknown
-		# x = 8
-		# y = 7
-		# cost = 10
+	focus = {
+		id = nyash_myash_iron_blooded_orphans
+		icon = GFX_goal_unknown
+		x = 6
+		y = 5
+		cost = 10
 
-		# prerequisite = {
-			# focus = nyash_myash_outbreak_company
-			# focus = nyash_myash_russo_samurai
-			# focus = nyash_myash_military_chronicles
-		# }
-	# }
-	# focus = {
-		# id = nyash_myash_serial_experiments
-		# icon = GFX_goal_unknown
-		# x = 8
-		# y = 8
-		# cost = 10
+		prerequisite = { focus = nyash_myash_outbreak_company }
+	}
+	focus = {
+		id = nyash_myash_serial_experiments
+		icon = GFX_goal_unknown
+		x = 6
+		y = 6
+		cost = 10
 
-		# prerequisite = { focus = nyash_myash_iron_blooded_orphans }
-	# }
-	# focus = {
-		# id = nyash_myash_first_squad
-		# icon = GFX_goal_unknown
-		# x = 8
-		# y = 9
-		# cost = 10
+		prerequisite = { focus = nyash_myash_iron_blooded_orphans }
+	}
+	focus = {
+		id = nyash_myash_first_squad
+		icon = GFX_goal_unknown
+		x = 6
+		y = 7
+		cost = 10
 
-		# prerequisite = { focus = nyash_myash_serial_experiments }
-	# }
+		prerequisite = { focus = nyash_myash_serial_experiments }
+	}
 
-	# focus = {
-		# id = nyash_myash_arpeggio_of_blue_steel
-		# icon = GFX_goal_unknown
-		# x = 16
-		# y = 7
-		# cost = 10
+	focus = {
+		id = nyash_myash_arpeggio_of_blue_steel
+		icon = GFX_goal_unknown
+		x = 18
+		y = 5
+		cost = 10
 
-		# prerequisite = {
-			# focus = nyash_myash_eastern_project
-			# focus = nyash_myash_russo_samurai
-			# focus = nyash_myash_military_chronicles
-		# }
-	# }
-	# focus = {
-		# id = nyash_myash_fleet_collection
-		# icon = GFX_goal_unknown
-		# x = 16
-		# y = 8
-		# cost = 10
+		prerequisite = { focus = nyash_myash_eastern_project }
+	}
+	focus = {
+		id = nyash_myash_fleet_collection
+		icon = GFX_goal_unknown
+		x = 18
+		y = 6
+		cost = 10
 
-		# prerequisite = { focus = nyash_myash_arpeggio_of_blue_steel }
-	# }
-	# focus = {
-		# id = nyash_myash_sacred_sailors
-		# icon = GFX_goal_unknown
-		# x = 16
-		# y = 9
-		# cost = 10
+		prerequisite = { focus = nyash_myash_arpeggio_of_blue_steel }
+	}
+	focus = {
+		id = nyash_myash_sacred_sailors
+		icon = GFX_goal_unknown
+		x = 18
+		y = 7
+		cost = 10
 
-		# prerequisite = { focus = nyash_myash_fleet_collection }
-	# }
+		prerequisite = { focus = nyash_myash_fleet_collection }
+	}
 
 	focus = {
 		id = nyash_myash_last_tour
@@ -427,6 +419,7 @@ focus_tree = {
 			focus = nyash_myash_pandora_heart
 			focus = nyash_myash_natalia_ambition
 			focus = nyash_myash_mountain_of_faith
+			focus = nyash_myash_infinite_stratos
 		}
 	}
 	focus = {
@@ -459,6 +452,7 @@ focus_tree = {
 			focus = nyash_myash_psalms_of_planet
 			focus = nyash_myash_world_god_only_knows
 			focus = nyash_myash_eastern_eden
+			focus = nyash_myash_infinite_stratos
 		}
 	}
 	focus = {
