@@ -15,4 +15,3 @@ country_event = {
 	option = {
 		name = dummy_test_option.1.b
 	}
-}

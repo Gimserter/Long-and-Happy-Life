@@ -1,0 +1,17 @@
+add_namespace = bazhenov
+
+country_event = {
+	id = bazhenov.2
+	title = bazhenov.2.t
+	desc = bazhenov.2.d
+	picture = GFX_bazhenov
+	major = yes
+		
+	is_triggered_only = yes
+		
+	option = {
+		name = dummy_test_option.2.a
+	}
+	option = {
+		name = dummy_test_option.2.b
+	}
