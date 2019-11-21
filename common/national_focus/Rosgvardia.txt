@@ -1,0 +1,233 @@
+focus_tree = {
+	id = rosgvardia
+
+	default = no
+
+	continuous_focus_position = { x = 20 y = 1250 }
+
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = RGD
+		}
+	}
+
+	focus = {
+		id = RGD_madman
+		icon = GFX_RGD
+		cost = 10
+		x = 19
+		y = 1
+	}
+	focus = {
+		id = RGD_civil_war
+		icon = GFX_RGD
+		prerequisite = {
+                focus = RGD_madman
+		}
+		cost = 10
+		x = 10
+		y = 3
+	}
+	focus = {
+		id = RGD_internal_issues
+		icon = GFX_RGD
+		prerequisite = {
+                focus = RGD_madman
+		}
+		cost = 10
+		x = 28
+		y = 3
+	}
+	focus = {
+		id = RGD_gearing_for_war
+		icon = GFX_RGD
+		prerequisite = {
+                focus = RGD_madman
+		}
+		cost = 10
+		x = 19
+		y = 8
+	}
+	focus = {
+		id = RGD_mighty_rosgvardia
+		icon = GFX_RGD
+		prerequisite = {
+                focus = RGD_gearing_for_war
+		}
+		cost = 10
+		x = 12
+		y = 10
+	}
+	focus = {
+		id = RGD_armour_of_eurasia
+		icon = GFX_RGD
+		prerequisite = {
+                focus = RGD_gearing_for_war
+		}
+		cost = 10
+		x = 14
+		y = 12
+	}
+	focus = {
+		id = RGD_those_who_fight
+		icon = GFX_RGD
+		prerequisite = {
+                focus = RGD_gearing_for_war
+		}
+		cost = 10
+		x = 17
+		y = 10
+	}
+	focus = {
+		id = RGD_mass_conscription
+		icon = GFX_RGD
+		prerequisite = {
+                focus = RGD_gearing_for_war
+		}
+		cost = 10
+		x = 21
+		y = 10
+	}
+	focus = {
+		id = RGD_doctrine_of_war
+		icon = GFX_RGD
+		prerequisite = {
+                focus = RGD_gearing_for_war
+		}
+		cost = 10
+		x = 24
+		y = 12
+	}
+	focus = {
+		id = RGD_guns_of_patriots
+		icon = GFX_RGD
+		prerequisite = {
+                focus = RGD_gearing_for_war
+		}
+		cost = 10
+		x = 26
+		y = 10
+	}
+	focus = {
+		id = RGD_southern_border
+		icon = GFX_RGD
+		prerequisite = {
+                focus = RGD_civil_war
+		}
+		cost = 10
+		x = 3
+		y = 5
+	}
+	focus = {
+		id = RGD_island_crimea
+		icon = GFX_RGD
+		prerequisite = {
+                focus = RGD_civil_war
+		}
+		cost = 10
+		x = 5
+		y = 8
+	}
+	focus = {
+		id = RGD_caspian_sea
+		icon = GFX_RGD
+		prerequisite = {
+                focus = RGD_civil_war
+		}
+		cost = 10
+		x = 8
+		y = 5
+	}
+	focus = {
+		id = RGD_our_partners
+		icon = GFX_RGD
+		prerequisite = {
+                focus = RGD_civil_war
+		}
+		cost = 10
+		x = 12
+		y = 5
+	}
+	focus = {
+		id = RGD_persian_policy
+		icon = GFX_RGD
+		prerequisite = {
+                focus = RGD_civil_war
+		}
+		cost = 10
+		x = 15
+		y = 8
+	}
+	focus = {
+		id = RGD_ukranian_dogs
+		icon = GFX_RGD
+		prerequisite = {
+                focus = RGD_civil_war
+		}
+		cost = 10
+		x = 17
+		y = 5
+	}
+	focus = {
+		id = RGD_islamic_issue
+		icon = GFX_RGD
+		prerequisite = {
+                focus = RGD_internal_issues
+		}
+		cost = 10
+		x = 21
+		y = 5
+	}
+	focus = {
+		id = RGD_working_hours
+		icon = GFX_RGD
+		prerequisite = {
+                focus = RGD_internal_issues
+		}
+		cost = 10
+		x = 23
+		y = 8
+	}
+	focus = {
+		id = RGD_media_control
+		icon = GFX_RGD
+		prerequisite = {
+                focus = RGD_internal_issues
+		}
+		cost = 10
+		x = 26
+		y = 5
+	}
+	focus = {
+		id = RGD_mountain_path
+		icon = GFX_RGD
+		prerequisite = {
+                focus = RGD_internal_issues
+		}
+		cost = 10
+		x = 30
+		y = 5
+	}
+	focus = {
+		id = RGD_insurgents
+		icon = GFX_RGD
+		prerequisite = {
+                focus = RGD_internal_issues
+		}
+		cost = 10
+		x = 32
+		y = 8
+	}
+	focus = {
+		id = RGD_industry_caucases
+		icon = GFX_RGD
+		prerequisite = {
+                focus = RGD_internal_issues
+		}
+		cost = 10
+		x = 35
+		y = 5
+	}
+}
