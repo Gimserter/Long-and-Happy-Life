@@ -3,7 +3,7 @@ focus_tree = {
 
 	default = no
 
-	continuous_focus_position = { x = 20 y = 1250 }
+	continuous_focus_position = { x = 20 y = 1500 }
 
 	country = {
 		factor = 0
@@ -17,8 +17,8 @@ focus_tree = {
 		id = RGD_madman
 		icon = GFX_RGD
 		cost = 10
-		x = 19
-		y = 1
+		x = 9
+		y = 0
 	}
 	focus = {
 		id = RGD_civil_war
@@ -27,8 +27,8 @@ focus_tree = {
                 focus = RGD_madman
 		}
 		cost = 10
-		x = 10
-		y = 3
+		x = 3
+		y = 1
 	}
 	focus = {
 		id = RGD_internal_issues
@@ -37,8 +37,8 @@ focus_tree = {
                 focus = RGD_madman
 		}
 		cost = 10
-		x = 28
-		y = 3
+		x = 15
+		y = 1
 	}
 	focus = {
 		id = RGD_gearing_for_war
@@ -47,8 +47,8 @@ focus_tree = {
                 focus = RGD_madman
 		}
 		cost = 10
-		x = 19
-		y = 8
+		x = 9
+		y = 3
 	}
 	focus = {
 		id = RGD_mighty_rosgvardia
@@ -57,8 +57,8 @@ focus_tree = {
                 focus = RGD_gearing_for_war
 		}
 		cost = 10
-		x = 12
-		y = 10
+		x = 6
+		y = 4
 	}
 	focus = {
 		id = RGD_armour_of_eurasia
@@ -67,8 +67,8 @@ focus_tree = {
                 focus = RGD_gearing_for_war
 		}
 		cost = 10
-		x = 14
-		y = 12
+		x = 7
+		y = 5
 	}
 	focus = {
 		id = RGD_those_who_fight
@@ -77,8 +77,8 @@ focus_tree = {
                 focus = RGD_gearing_for_war
 		}
 		cost = 10
-		x = 17
-		y = 10
+		x = 8
+		y = 4
 	}
 	focus = {
 		id = RGD_mass_conscription
@@ -87,8 +87,8 @@ focus_tree = {
                 focus = RGD_gearing_for_war
 		}
 		cost = 10
-		x = 21
-		y = 10
+		x = 10
+		y = 4
 	}
 	focus = {
 		id = RGD_doctrine_of_war
@@ -97,8 +97,8 @@ focus_tree = {
                 focus = RGD_gearing_for_war
 		}
 		cost = 10
-		x = 24
-		y = 12
+		x = 11
+		y = 5
 	}
 	focus = {
 		id = RGD_guns_of_patriots
@@ -107,8 +107,8 @@ focus_tree = {
                 focus = RGD_gearing_for_war
 		}
 		cost = 10
-		x = 26
-		y = 10
+		x = 12
+		y = 4
 	}
 	focus = {
 		id = RGD_southern_border
@@ -117,8 +117,8 @@ focus_tree = {
                 focus = RGD_civil_war
 		}
 		cost = 10
-		x = 3
-		y = 5
+		x = 0
+		y = 2
 	}
 	focus = {
 		id = RGD_island_crimea
@@ -127,8 +127,8 @@ focus_tree = {
                 focus = RGD_civil_war
 		}
 		cost = 10
-		x = 5
-		y = 8
+		x = 1
+		y = 3
 	}
 	focus = {
 		id = RGD_caspian_sea
@@ -137,8 +137,8 @@ focus_tree = {
                 focus = RGD_civil_war
 		}
 		cost = 10
-		x = 8
-		y = 5
+		x = 2
+		y = 2
 	}
 	focus = {
 		id = RGD_our_partners
@@ -147,8 +147,8 @@ focus_tree = {
                 focus = RGD_civil_war
 		}
 		cost = 10
-		x = 12
-		y = 5
+		x = 4
+		y = 2
 	}
 	focus = {
 		id = RGD_persian_policy
@@ -157,8 +157,8 @@ focus_tree = {
                 focus = RGD_civil_war
 		}
 		cost = 10
-		x = 15
-		y = 8
+		x = 5
+		y = 3
 	}
 	focus = {
 		id = RGD_ukranian_dogs
@@ -167,8 +167,8 @@ focus_tree = {
                 focus = RGD_civil_war
 		}
 		cost = 10
-		x = 17
-		y = 5
+		x = 6
+		y = 2
 	}
 	focus = {
 		id = RGD_islamic_issue
@@ -177,8 +177,8 @@ focus_tree = {
                 focus = RGD_internal_issues
 		}
 		cost = 10
-		x = 21
-		y = 5
+		x = 12
+		y = 2
 	}
 	focus = {
 		id = RGD_working_hours
@@ -187,8 +187,8 @@ focus_tree = {
                 focus = RGD_internal_issues
 		}
 		cost = 10
-		x = 23
-		y = 8
+		x = 13
+		y = 3
 	}
 	focus = {
 		id = RGD_media_control
@@ -197,8 +197,8 @@ focus_tree = {
                 focus = RGD_internal_issues
 		}
 		cost = 10
-		x = 26
-		y = 5
+		x = 14
+		y = 2
 	}
 	focus = {
 		id = RGD_mountain_path
@@ -207,8 +207,8 @@ focus_tree = {
                 focus = RGD_internal_issues
 		}
 		cost = 10
-		x = 30
-		y = 5
+		x = 16
+		y = 2
 	}
 	focus = {
 		id = RGD_insurgents
@@ -217,8 +217,8 @@ focus_tree = {
                 focus = RGD_internal_issues
 		}
 		cost = 10
-		x = 32
-		y = 8
+		x = 17
+		y = 3
 	}
 	focus = {
 		id = RGD_industry_caucases
@@ -227,7 +227,34 @@ focus_tree = {
                 focus = RGD_internal_issues
 		}
 		cost = 10
-		x = 35
-		y = 5
+		x = 18
+		y = 2
+	}
+	focus = {
+		id = RGD_crush_cordon
+		icon = GFX_RGD
+		cost = 10
+		x = 9
+		y = 6
+	}
+	focus = {
+		id = RGD_fatal_shot
+		icon = GFX_RGD
+		prerequisite = {
+                focus = RGD_crush_cordon
+		}
+		cost = 10
+		x = 9
+		y = 7
+	}
+	focus = {
+		id = RGD_wake_up_putin
+		icon = GFX_RGD
+		prerequisite = {
+                focus = RGD_fatal_shot
+		}
+		cost = 10
+		x = 9
+		y = 8
 	}
 }
