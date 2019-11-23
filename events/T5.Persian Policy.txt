@@ -1,0 +1,21 @@
+add_namespace = persian_policy
+
+country_event = {
+	id = persian_policy.1
+	title = persian_policy.1.t
+	desc = persian_policy.1.d
+	picture = GFX
+	major = yes
+		
+	is_triggered_only = yes
+		
+	option = {
+		name = diplomat_policy.1.a
+	}
+	option = {
+		name = udmurt_policy.1.b
+	}
+	option = {
+		name = kuchma_policy.1.c
+	}
+}

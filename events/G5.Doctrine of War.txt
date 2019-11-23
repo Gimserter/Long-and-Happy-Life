@@ -1,0 +1,21 @@
+add_namespace = doctrine_war
+
+country_event = {
+	id = doctrine_war.1
+	title = doctrine_war.1.t
+	desc = doctrine_war.1.d
+	picture = GFX
+	major = yes
+		
+	is_triggered_only = yes
+		
+	option = {
+		name = udmurt_doctrine.1.a
+	}
+	option = {
+		name = speech_doctrine.1.b
+	}
+	option = {
+		name = drunk_doctrine.1.c
+	}
+}

@@ -1,0 +1,21 @@
+add_namespace = insurgents
+
+country_event = {
+	id = insurgents.1
+	title = insurgents.1.t
+	desc = insurgents.1.d
+	picture = GFX
+	major = yes
+		
+	is_triggered_only = yes
+		
+	option = {
+		name = speech_insurgents.1.a
+	}
+	option = {
+		name = banquet_insurgents.1.b
+	}
+	option = {
+		name = diplomat_insurgents.1.c
+	}
+}

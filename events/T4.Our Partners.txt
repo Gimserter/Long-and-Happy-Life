@@ -1,0 +1,21 @@
+add_namespace = our_partners
+
+country_event = {
+	id = our_partners.1
+	title = our_partners.1.t
+	desc = our_partners.1.d
+	picture = GFX
+	major = yes
+		
+	is_triggered_only = yes
+		
+	option = {
+		name = diplomat_partners.1.a
+	}
+	option = {
+		name = udmurt_partners.1.b
+	}
+	option = {
+		name = banquet_partners.1.c
+	}
+}

@@ -1,0 +1,21 @@
+add_namespace = ukranian_dogs
+
+country_event = {
+	id = ukranian_dogs.1
+	title = ukranian_dogs.1.t
+	desc = ukranian_dogs.1.d
+	picture = GFX
+	major = yes
+		
+	is_triggered_only = yes
+		
+	option = {
+		name = diplomat_ukraine.1.a
+	}
+	option = {
+		name = udmurt_ukraine.1.b
+	}
+	option = {
+		name = kuchma_ukraine.1.c
+	}
+}

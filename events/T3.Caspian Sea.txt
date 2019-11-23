@@ -1,0 +1,21 @@
+add_namespace = caspian_sea
+
+country_event = {
+	id = caspian_sea.1
+	title = caspian_sea.1.t
+	desc = caspian_sea.1.d
+	picture = GFX
+	major = yes
+		
+	is_triggered_only = yes
+		
+	option = {
+		name = diplomat_sea.1.a
+	}
+	option = {
+		name = speech_sea.1.b
+	}
+	option = {
+		name = drunk_sea.1.c
+	}
+}

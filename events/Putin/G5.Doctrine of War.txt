@@ -1,0 +1,21 @@
+add_namespace = guns_of_patriots
+
+country_event = {
+	id = guns_of_patriots.1
+	title = guns_of_patriots.1.t
+	desc = guns_of_patriots.1.d
+	picture = GFX
+	major = yes
+		
+	is_triggered_only = yes
+		
+	option = {
+		name = guns_of_patriots_option.1.a
+	}
+	option = {
+		name = guns_of_patriots_option.1.b
+	}
+	option = {
+		name = guns_of_patriots_option.1.c
+	}
+}

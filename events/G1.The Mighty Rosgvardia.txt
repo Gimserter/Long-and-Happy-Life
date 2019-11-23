@@ -1,0 +1,21 @@
+add_namespace = mighty_rosgvardia
+
+country_event = {
+	id = mighty_rosgvardia.1
+	title = mighty_rosgvardia.1.t
+	desc = mighty_rosgvardia.1.d
+	picture = GFX
+	major = yes
+		
+	is_triggered_only = yes
+		
+	option = {
+		name = speech_might.1.a
+	}
+	option = {
+		name = kuchma_might.1.b
+	}
+	option = {
+		name = banquet_might.1.c
+	}
+}

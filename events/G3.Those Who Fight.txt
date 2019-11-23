@@ -1,0 +1,21 @@
+add_namespace = those_who_fight
+
+country_event = {
+	id = those_who_fight.1
+	title = those_who_fight.1.t
+	desc = those_who_fight.1.d
+	picture = GFX
+	major = yes
+		
+	is_triggered_only = yes
+		
+	option = {
+		name = kuchma_fight.1.a
+	}
+	option = {
+		name = diplomat_fight.1.b
+	}
+	option = {
+		name = banquet_fight.1.c
+	}
+}

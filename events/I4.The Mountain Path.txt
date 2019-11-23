@@ -1,0 +1,21 @@
+add_namespace = mountain_path
+
+country_event = {
+	id = mountain_path.1
+	title = mountain_path.1.t
+	desc = mountain_path.1.d
+	picture = GFX
+	major = yes
+		
+	is_triggered_only = yes
+		
+	option = {
+		name = banquet_path.1.a
+	}
+	option = {
+		name = speech_path.1.b
+	}
+	option = {
+		name = drunk_path_path.1.c
+	}
+}

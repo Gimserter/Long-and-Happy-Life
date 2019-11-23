@@ -1,0 +1,21 @@
+add_namespace = industry_caucases
+
+country_event = {
+	id = industry_caucases.1
+	title = industry_caucases.1.t
+	desc = industry_caucases.1.d
+	picture = GFX
+	major = yes
+		
+	is_triggered_only = yes
+		
+	option = {
+		name = banquet_industry.1.a
+	}
+	option = {
+		name = speech_industry.1.b
+	}
+	option = {
+		name = drunk_industry.1.c
+	}
+}

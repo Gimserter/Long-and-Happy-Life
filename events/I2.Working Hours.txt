@@ -1,0 +1,21 @@
+add_namespace = working_hours
+
+country_event = {
+	id = working_hours.1
+	title = working_hours.1.t
+	desc = working_hours.1.d
+	picture = GFX
+	major = yes
+		
+	is_triggered_only = yes
+		
+	option = {
+		name = udmurt_hours.1.a
+	}
+	option = {
+		name = kuchma_hours.1.b
+	}
+	option = {
+		name = banquet_hours.1.c
+	}
+}

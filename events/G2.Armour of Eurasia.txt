@@ -1,0 +1,21 @@
+add_namespace = armour_eurasia
+
+country_event = {
+	id = armour_eurasia.1
+	title = armour_eurasia.1.t
+	desc = armour_eurasia.1.d
+	picture = GFX
+	major = yes
+		
+	is_triggered_only = yes
+		
+	option = {
+		name = udmurt_armour.1.a
+	}
+	option = {
+		name = diplomat_armour.1.b
+	}
+	option = {
+		name = drunk_armour.1.c
+	}
+}

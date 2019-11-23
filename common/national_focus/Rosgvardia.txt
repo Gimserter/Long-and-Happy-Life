@@ -56,6 +56,9 @@ focus_tree = {
 		prerequisite = {
                 focus = RGD_gearing_for_war
 		}
+		completion_reward = {
+		        RNG = {country_event = { days = 1 id = mighty_rosgvardia.1 }}
+		}
 		cost = 10
 		x = 6
 		y = 4
@@ -65,6 +68,9 @@ focus_tree = {
 		icon = GFX_RGD
 		prerequisite = {
                 focus = RGD_gearing_for_war
+		}
+		completion_reward = {
+		        RNG = {country_event = { days = 1 id = armour_eurasia.1 }}
 		}
 		cost = 10
 		x = 7
@@ -76,6 +82,9 @@ focus_tree = {
 		prerequisite = {
                 focus = RGD_gearing_for_war
 		}
+		completion_reward = {
+		        RNG = {country_event = { days = 1 id = those_who_fight.1 }}
+		}
 		cost = 10
 		x = 8
 		y = 4
@@ -85,6 +94,9 @@ focus_tree = {
 		icon = GFX_RGD
 		prerequisite = {
                 focus = RGD_gearing_for_war
+		}
+		completion_reward = {
+		        RNG = {country_event = { days = 1 id = mass_conscription.1 }}
 		}
 		cost = 10
 		x = 10
@@ -96,6 +108,9 @@ focus_tree = {
 		prerequisite = {
                 focus = RGD_gearing_for_war
 		}
+		completion_reward = {
+		        RNG = {country_event = { days = 1 id = doctrine_war.1 }}
+		}
 		cost = 10
 		x = 11
 		y = 5
@@ -105,6 +120,9 @@ focus_tree = {
 		icon = GFX_RGD
 		prerequisite = {
                 focus = RGD_gearing_for_war
+		}
+		completion_reward = {
+		        RNG = {country_event = { days = 1 id = guns_of_patriots.1 }}
 		}
 		cost = 10
 		x = 12
@@ -116,6 +134,9 @@ focus_tree = {
 		prerequisite = {
                 focus = RGD_civil_war
 		}
+		completion_reward = {
+		        RNG = {country_event = { days = 1 id = southern_border.1 }}
+		}
 		cost = 10
 		x = 0
 		y = 2
@@ -125,6 +146,9 @@ focus_tree = {
 		icon = GFX_RGD
 		prerequisite = {
                 focus = RGD_civil_war
+		}
+		completion_reward = {
+		        RNG = {country_event = { days = 1 id = island_crimea.1 }}
 		}
 		cost = 10
 		x = 1
@@ -136,6 +160,9 @@ focus_tree = {
 		prerequisite = {
                 focus = RGD_civil_war
 		}
+		completion_reward = {
+		        RNG = {country_event = { days = 1 id = caspian_sea.1 }}
+		}
 		cost = 10
 		x = 2
 		y = 2
@@ -145,6 +172,9 @@ focus_tree = {
 		icon = GFX_RGD
 		prerequisite = {
                 focus = RGD_civil_war
+		}
+		completion_reward = {
+		        RNG = {country_event = { days = 1 id = our_partners.1 }}
 		}
 		cost = 10
 		x = 4
@@ -156,6 +186,9 @@ focus_tree = {
 		prerequisite = {
                 focus = RGD_civil_war
 		}
+		completion_reward = {
+		        RNG = {country_event = { days = 1 id = persian_policy.1 }}
+		}
 		cost = 10
 		x = 5
 		y = 3
@@ -165,6 +198,9 @@ focus_tree = {
 		icon = GFX_RGD
 		prerequisite = {
                 focus = RGD_civil_war
+		}
+		completion_reward = {
+		        RNG = {country_event = { days = 1 id = ukranian_dogs.1 }}
 		}
 		cost = 10
 		x = 6
@@ -176,6 +212,9 @@ focus_tree = {
 		prerequisite = {
                 focus = RGD_internal_issues
 		}
+		completion_reward = {
+		        RNG = {country_event = { days = 1 id = islamic_issue.1 }}
+		}
 		cost = 10
 		x = 12
 		y = 2
@@ -185,6 +224,9 @@ focus_tree = {
 		icon = GFX_RGD
 		prerequisite = {
                 focus = RGD_internal_issues
+		}
+		completion_reward = {
+		        RNG = {country_event = { days = 1 id = working_hours.1 }}
 		}
 		cost = 10
 		x = 13
@@ -196,6 +238,9 @@ focus_tree = {
 		prerequisite = {
                 focus = RGD_internal_issues
 		}
+		completion_reward = {
+		        RNG = {country_event = { days = 1 id = media_control.1 }}
+		}
 		cost = 10
 		x = 14
 		y = 2
@@ -205,6 +250,9 @@ focus_tree = {
 		icon = GFX_RGD
 		prerequisite = {
                 focus = RGD_internal_issues
+		}
+		completion_reward = {
+		        RNG = {country_event = { days = 1 id = mountain_path.1 }}
 		}
 		cost = 10
 		x = 16
@@ -216,6 +264,9 @@ focus_tree = {
 		prerequisite = {
                 focus = RGD_internal_issues
 		}
+		completion_reward = {
+		        RNG = {country_event = { days = 1 id = insurgents.1 }}
+		}
 		cost = 10
 		x = 17
 		y = 3
@@ -225,6 +276,9 @@ focus_tree = {
 		icon = GFX_RGD
 		prerequisite = {
                 focus = RGD_internal_issues
+		}
+		completion_reward = {
+		        RNG = {country_event = { days = 1 id = industry_caucases.1 }}
 		}
 		cost = 10
 		x = 18

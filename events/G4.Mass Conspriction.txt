@@ -1,0 +1,21 @@
+add_namespace = mass_conscription
+
+country_event = {
+	id = mass_conscription.1
+	title = mass_conscription.1.t
+	desc = mass_conscription.1.d
+	picture = GFX
+	major = yes
+		
+	is_triggered_only = yes
+		
+	option = {
+		name = drunk_mass.1.a
+	}
+	option = {
+		name = udmurt_mass.1.b
+	}
+	option = {
+		name = kuchma_mass.1.c
+	}
+}

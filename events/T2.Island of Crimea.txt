@@ -1,0 +1,21 @@
+add_namespace = island_crimea
+
+country_event = {
+	id = island_crimea.1
+	title = island_crimea.1.t
+	desc = island_crimea.1.d
+	picture = GFX
+	major = yes
+		
+	is_triggered_only = yes
+		
+	option = {
+		name = drunk_crimea.1.a
+	}
+	option = {
+		name = diplomat_crimea.1.b
+	}
+	option = {
+		name = speech_crimea.1.c
+	}
+}

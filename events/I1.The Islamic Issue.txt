@@ -1,0 +1,21 @@
+add_namespace = islamic_issue
+
+country_event = {
+	id = islamic_issue.1
+	title = islamic_issue.1.t
+	desc = islamic_issue.1.d
+	picture = GFX
+	major = yes
+		
+	is_triggered_only = yes
+		
+	option = {
+		name = banquet_issue.1.a
+	}
+	option = {
+		name = udmurt_issue.1.b
+	}
+	option = {
+		name = kuchma_issue.1.c
+	}
+}
