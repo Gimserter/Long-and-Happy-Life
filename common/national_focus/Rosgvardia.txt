@@ -307,6 +307,9 @@ focus_tree = {
 		prerequisite = {
                 focus = RGD_fatal_shot
 		}
+		completion_reward = {
+		        RNG = {country_event = { days = 1 id = wake_up.1 }}
+		}
 		cost = 10
 		x = 9
 		y = 8

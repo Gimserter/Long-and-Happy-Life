@@ -10,12 +10,24 @@ country_event = {
 	is_triggered_only = yes
 		
 	option = {
-		name = banquet_path.1.a
+		name = banquet_mountain.1.a
+		add_to_variable = {
+		    var = putin_banquet_variable
+			value = 1
+		}
 	}
 	option = {
-		name = speech_path.1.b
+		name = speech_mountain.1.b
+		add_to_variable = {
+		    var = putin_speech_variable
+			value = 1
+		}
 	}
 	option = {
-		name = drunk_path_path.1.c
+		name = drunk_mountain.1.c
+		add_to_variable = {
+		    var = putin_drunk_variable
+			value = 1
+		}
 	}
 }

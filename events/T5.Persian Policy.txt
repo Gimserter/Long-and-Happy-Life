@@ -11,11 +11,23 @@ country_event = {
 		
 	option = {
 		name = diplomat_policy.1.a
+		add_to_variable = {
+		    var = putin_diplomat_variable
+			value = 1
+		}
 	}
 	option = {
 		name = udmurt_policy.1.b
+		add_to_variable = {
+		    var = putin_udmurt_variable
+			value = 1
+		}
 	}
 	option = {
 		name = kuchma_policy.1.c
+		add_to_variable = {
+		    var = putin_kuchma_variable
+			value = 1
+		}
 	}
 }
