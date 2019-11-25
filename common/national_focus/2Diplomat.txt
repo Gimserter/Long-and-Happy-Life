@@ -1,5 +1,5 @@
 focus_tree = {
-	id = rosgvardia
+	id = diplomat
 
 	default = no
 

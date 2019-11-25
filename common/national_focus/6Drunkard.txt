@@ -1,5 +1,5 @@
 focus_tree = {
-	id = rosgvardia
+	id = drunk
 
 	default = no
 

@@ -20,5 +20,80 @@ country_event = {
 				check_variable = {putin_speech_variable > putin_drunk_variable}
 			}
 			load_focus_tree = speech
+		}
+		else_if = {
+		    limit = {
+			    check_variable = {putin_udmurt_variable > putin_speech_variable}
+				check_variable = {putin_udmurt_variable > putin_diplomat_variable}
+				check_variable = {putin_udmurt_variable > putin_kuchma_variable}
+				check_variable = {putin_udmurt_variable > putin_banquet_variable}
+				check_variable = {putin_udmurt_variable > putin_drunk_variable}
+			}
+			load_focus_tree = udmurt
+		}
+		else_if = {
+		    limit = {
+			    check_variable = {putin_diplomat_variable > putin_udmurt_variable}
+				check_variable = {putin_diplomat_variable > putin_speech_variable}
+				check_variable = {putin_diplomat_variable > putin_kuchma_variable}
+				check_variable = {putin_diplomat_variable > putin_banquet_variable}
+				check_variable = {putin_diplomat_variable > putin_drunk_variable}
+			}
+			load_focus_tree = diplomat
+		}
+		else_if = {
+		    limit = {
+			    check_variable = {putin_kuchma_variable > putin_udmurt_variable}
+				check_variable = {putin_kuchma_variable > putin_diplomat_variable}
+				check_variable = {putin_kuchma_variable > putin_speech_variable}
+				check_variable = {putin_kuchma_variable > putin_banquet_variable}
+				check_variable = {putin_kuchma_variable > putin_drunk_variable}
+			}
+			load_focus_tree = kuchma
+		}
+		else_if = {
+		    limit = {
+			    check_variable = {putin_banquet_variable > putin_udmurt_variable}
+				check_variable = {putin_banquet_variable > putin_diplomat_variable}
+				check_variable = {putin_banquet_variable > putin_kuchma_variable}
+				check_variable = {putin_banquet_variable > putin_speech_variable}
+				check_variable = {putin_banquet_variable > putin_drunk_variable}
+			}
+			load_focus_tree = banquet
+		}
+		else_if = {
+		    limit = {
+			    check_variable = {putin_drunk_variable > putin_udmurt_variable}
+				check_variable = {putin_drunk_variable > putin_diplomat_variable}
+				check_variable = {putin_drunk_variable > putin_kuchma_variable}
+				check_variable = {putin_drunk_variable > putin_banquet_variable}
+				check_variable = {putin_drunk_variable  > putin_drunk_variable}
+			}
+			load_focus_tree = drunk
+		}
+        else_if = {
+		    limit = {
+			    check_variable = {putin_speech_variable = putin_udmurt_variable}
+			    check_variable = {putin_speech_variable = putin_diplomat_variable}
+			    check_variable = {putin_speech_variable = putin_kuchma_variable}
+			    check_variable = {putin_speech_variable = putin_banquet_variable}
+			    check_variable = {putin_speech_variable = putin_drunk_variable}
+			    check_variable = {putin_udmurt_variable = putin_diplomat_variable}
+			    check_variable = {putin_udmurt_variable = putin_kuchma_variable}
+			    check_variable = {putin_udmurt_variable = putin_banquet_variable}
+			    check_variable = {putin_udmurt_variable = putin_drunk_variable}
+			    check_variable = {putin_diplomat_variable = putin_kuchma_variable}
+			    check_variable = {putin_diplomat_variable = putin_banquet_variable}
+			    check_variable = {putin_diplomat_variable = putin_drunk_variable}
+			    check_variable = {putin_kuchma_variable = putin_banquet_variable}
+			    check_variable = {putin_kuchma_variable = putin_drunk_variable}
+			    check_variable = {putin_banquet_variable = putin_drunk_variable}
+			}
+			load_focus_tree = original
+		}
+		else = {
+		    limit = {}
+		    load_focus_tree = drunk
+	    }
 	}
 }
