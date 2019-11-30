@@ -28,6 +28,19 @@
  RGD_crush_cordon:0 "Extinguish The Sanitars"
  RGD_fatal_shot:0 "A Stray Bullet"
  RGD_wake_up_putin:0 "Rise And Shine, Mr Putin"
+ ###Speechifier###
+ RGD_industrial_projects:0 "Industrial Projects"
+ RGD_confusing:0 "Confusing Architecture"
+ RGD_totalitarian:0 "Totalitarian Cities"
+ RGD_expand:0 "Expand The Metro System"
+ RGD_secret:0 "Secret Facilities"
+ RGD_roads:0 "Roads To Nowhere"
+ RGD_structures:0 "Monolithic Structures"
+ RGD_town:0 "A Town Without Streets"
+ RGD_camera:0 "A Camera On Every Corner"
+ RGD_backrooms:0 "The Backrooms"
+ RGD_research:0 "Unethical Research"
+ RGD_ra2:0 "Helplessness Is Your Best Friend"
  ###Desc###
  
  mighty_rosgvardia.1.t:0 "Mighty Rosgvardia"
