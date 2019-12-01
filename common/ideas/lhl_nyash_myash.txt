@@ -1,0 +1,54 @@
+ideas = {
+
+	country = {
+
+		nyash_myash_national_spirit_russian = {
+
+			picture = nyash_myash_national_spirit_russian
+
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				line_change_production_efficiency_factor = -0.05
+				production_factory_efficiency_gain_factor = 0.05
+			}
+		}
+
+		nyash_myash_national_spirit_japanese = {
+
+			picture = nyash_myash_national_spirit_japanese
+
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = -0.05
+				monthly_population = -0.05
+			}
+		}
+
+		nyash_myash_national_spirit_russian_japanese = {
+
+			picture = nyash_myash_national_spirit_russian_japanese
+
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				political_power_gain = 0.25
+				stability_factor = -0.1
+			}
+		}
+
+	}
+}

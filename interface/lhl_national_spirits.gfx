@@ -1,0 +1,14 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_idea_nyash_myash_national_spirit_russian"
+		texturefile = "gfx/interface/ideas/national_spirits/nyash_myash/idea_national_spirit_russian.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_nyash_myash_national_spirit_japanese"
+		texturefile = "gfx/interface/ideas/national_spirits/nyash_myash/idea_national_spirit_japanese.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_nyash_myash_national_spirit_russian_japanese"
+		texturefile = "gfx/interface/ideas/national_spirits/nyash_myash/idea_national_spirit_russian_japanese.dds"
+	}
+}

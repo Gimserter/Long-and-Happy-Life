@@ -1,0 +1,62 @@
+﻿add_namespace = LHLNYA
+
+country_event = {
+	id = LHLNYA.1
+	title = LHLNYA_1_TITLE
+	desc = LHLNYA_1_desc
+
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	immediate = {
+		kill_country_leader = yes
+		create_country_leader = {
+			name = "???"
+			desc = ""
+			picture = "gfx/leaders/leader_unknown_female.dds"
+			ideology = charismatic_dictatorship
+		}
+		remove_ideas = {
+			nyash_myash_national_spirit_russian
+			nyash_myash_national_spirit_russian_japanese
+			nyash_myash_national_spirit_japanese
+		}
+	}
+
+	option = {
+		name = LHLNYA_1_RUS
+		add_ideas = nyash_myash_national_spirit_russian
+
+		kill_country_leader = yes
+		create_country_leader = {
+			name = "Natalia Poklonskaja"
+			desc = ""
+			picture = "gfx/leaders/RIS/Portrait_RIS_Natalia_Poklonskaja_RUS.dds"
+			ideology = charismatic_dictatorship
+		}
+	}
+	option = {
+		name = LHLNYA_1_RUSJAP
+		add_ideas = nyash_myash_national_spirit_russian_japanese
+
+		kill_country_leader = yes
+		create_country_leader = {
+			name = "Poklonskaja Natalia"
+			desc = ""
+			picture = "gfx/leaders/RIS/Portrait_RIS_Natalia_Poklonskaja_RUS_JAP.dds"
+			ideology = charismatic_dictatorship
+		}
+	}
+	option = {
+		name = LHLNYA_1_JAP
+		add_ideas = nyash_myash_national_spirit_japanese
+
+		kill_country_leader = yes
+		create_country_leader = {
+			name = "Saito Megumi"
+			desc = ""
+			picture = "gfx/leaders/RIS/Portrait_RIS_Natalia_Poklonskaja_JAP.dds"
+			ideology = charismatic_dictatorship
+		}
+	}
+}
