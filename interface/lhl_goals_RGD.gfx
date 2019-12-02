@@ -1,0 +1,6 @@
+spriteTypes = {
+	SpriteType = {
+		name = "GFX_goal_RGD_madman"
+		texturefile = "gfx/interface/goals/RGD/goal_RGD_madman.dds"
+	}
+}
