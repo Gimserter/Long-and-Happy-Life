@@ -2,7 +2,7 @@ spriteTypes = {
 
 	#### Rosgvardia
 	SpriteType = {
-		name = "GFX_goal_RGD_madman"
+		name = "GFX_goal_RGD_madman_shine"
 		texturefile = "gfx/interface/goals/RGD/goal_RGD_madman.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
