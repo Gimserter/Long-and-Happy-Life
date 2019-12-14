@@ -65,6 +65,7 @@
  FIN_regressionism_party:0 "Finnish Nature Heritage Foundation"
  ###Steppe###
  RNG_right_populism_party:0 "Our Home – Russia"
+ RNG_right_populism_party:0 "Our Home – Russia"
  ###USA###
  LOU_national_bolshevism_party:0 "John Birch Society"
  CAL_neocameralism_party:0 "Eurasian Occupation Government"
@@ -75,3 +76,12 @@
  ###Scandinavia###
  SWE_ur_fascism_party:0 "Hovpartiet"
  SDE_socialism_party:0 "Kristdemokraterna"
+ SDE_socialism_party:0 "Kristdemokraterna"
+ ###CHINA###
+ SHA_ur_fascism_party:0 "Greek Administration"
+ SHA_neocameralism_party:0 "French Administration"
+ SHA_right_populism_party:0 "Iranian Administration"
+ SHA_national_bolshevism_party:0 "Eurasian Administration"
+ SHA_hegemonism_party:0 "Japanese Administration"
+ SHA_socialism_party:0 "German Administration"
+

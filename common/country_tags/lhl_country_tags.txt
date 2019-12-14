@@ -66,3 +66,5 @@ SLV = "countries/lhl_countries/Slovenia.txt"
 PRU = "countries/lhl_countries/Prussia.txt"
 PDE = "countries/lhl_countries/German Poland.txt"
 CAS = "countries/lhl_countries/Cascadia.txt"
+SHA = "countries/lhl_countries/Shanghai.txt"
+
