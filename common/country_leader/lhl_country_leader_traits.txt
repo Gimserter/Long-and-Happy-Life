@@ -250,6 +250,37 @@ leader_traits = {
 	}
 		
 	
+<<<<<<< Updated upstream
+=======
+	nation_unifier= {
+		random = no
+		stability_factor = -0.2
+		army_morale_Factor = -0.1
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	fading_leader= {
+		random = no
+		political_power_factor = -1
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	archon_basileus= {
+		random = no
+		stability_factor = 0.3
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+>>>>>>> Stashed changes
 	### IDEA TRAITS ###
 
 	first_oprichnik = {
